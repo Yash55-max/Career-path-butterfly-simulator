@@ -497,7 +497,7 @@ def create_killer_figure(results):
                 f'{mean:.2f}%\n[{ci_low:.2f}%, {ci_high:.2f}%]',
                 ha='center', va='bottom', fontweight='bold', fontsize=11)
     
-    # Add delta annotations
+    # Add delta annotation
     control_mean = means[0]
     for i in range(1, 3):
         delta = means[i] - control_mean
